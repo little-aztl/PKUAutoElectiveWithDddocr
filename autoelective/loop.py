@@ -508,7 +508,7 @@ def run_elective_loop():
                     r = elective.get_DrawServlet()
 
                     captcha = recognizer.recognize(r.content)
-                    cout.info("Recognition result: ", captcha)
+                    cout.info('\033[1m' + '\033[91m' + f"Recognition result: {captcha}" + '\033[0m')
 
                     r = elective.get_Validate(username, captcha)
                     try:
