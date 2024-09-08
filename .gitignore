@@ -8,3 +8,5 @@ __pycache__/
 /tmp
 config.ini
 user_agents.user.txt
+/test_ddddocr/
+/.DS_Store
