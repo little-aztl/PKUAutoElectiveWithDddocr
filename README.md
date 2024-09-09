@@ -50,7 +50,7 @@ $ git clone https://github.com/zhongxinghong/PKUAutoElective.git
 
 安装 PyTorch 外的依赖包（该示例中使用清华镜像源以加快下载速度）
 ```console
-$ pip3 install requests lxml Pillow opencv-python numpy flask -i https://pypi.tuna.tsinghua.edu.cn/simple
+$ pip3 install requests lxml Pillow opencv-python numpy flask ddddocr -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 安装 PyTorch，从 [PyTorch 官网](https://pytorch.org/) 中选择合适的条件获得下载命令，然后复制粘贴到命令行中运行即可下载安装 (CUDA 可以为 None)，PyTorch 版本必须要大于 1.4.x，否则无法读取 CNN 模型
